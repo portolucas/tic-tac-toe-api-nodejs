@@ -1,6 +1,6 @@
 ## Tic-tac-toe API in NodeJS
 
-##NodeJS version: 6.9.0
+### NodeJS version: 6.9.0
 
 Dependencies:
 - "connect": "^3.7.0",
