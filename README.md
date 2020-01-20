@@ -13,11 +13,11 @@ Dependencies:
 - "http-errors": "~1.6.3",
 - "morgan": "^1.9.1"
 
-Install node: ```npm i```
+### Install node: ```npm i```
 
-Build: ```npm start```
+### Build: ```npm start```
 
-Routes: 
+### Routes: 
 - Initial route: POST /game
 - Movement route: POST /game/:id/movement send into the body this json: ```{
 	"id": "id returned in route /game",
