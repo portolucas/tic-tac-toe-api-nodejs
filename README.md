@@ -19,16 +19,9 @@ Dependencies:
 
 ### Routes: 
 - Initial route: POST /game
-- Movement route: POST /game/:id/movement send into the body this json: ```{
-	"id": "id returned in route /game",
-	"player": "player returned in route /game",
-	"position": {
-		"x": 0,
-		"y": 1 
-	}
-}```
+- Movement route: POST /game/:id/movement 
 
-### Important:
-    Don't exist "/" route and method GET on initial route don't works. Don't try GET at http://localhost:3000 in navigator, it's don't works. Make tests on Postman or Insomnia.
+### Postman collection
+- Use the ``` tic-tac-toe.postman_collection.json ``` for tests on Postman.
 
 If you are on Linux/Mac, change the **start** value on **script** key of **_package.json** file for ```"./bin/www"```
