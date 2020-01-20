@@ -15,6 +15,6 @@ Install node: ```npm i```
 
 Build: ```npm start```
 
-If you are on Linux/Mac, change the script start on package.json for "./bin/www"
+If you are on Linux/Mac, change the _start value on _script key of _package.json file for ```"./bin/www"```
 
 Listen on port:3000
