@@ -20,8 +20,8 @@ Build: ```npm start```
 Routes: 
 - Initial route: POST /game
 - Movement route: POST /game/:id/movement send into the body this json: ```{
-	"id": "1579551464",
-	"player": "O",
+	"id": "id returned in route /game",
+	"player": "O" or "X",
 	"position": {
 		"x": 0,
 		"y": 1 
@@ -29,7 +29,7 @@ Routes:
 }```
 
 ### Important:
-    Don't exist "/" route and method GET on initial route don't works. Don't try get at http://localhost:3000 in navigator, it's don't works.
+    Don't exist "/" route and method GET on initial route don't works. Don't try GET at http://localhost:3000 in navigator, it's don't works.
 
 If you are on Linux/Mac, change the **start** value on **script** key of **_package.json** file for ```"./bin/www"```
 
