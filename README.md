@@ -21,7 +21,7 @@ Dependencies:
 - Initial route: POST /game
 - Movement route: POST /game/:id/movement send into the body this json: ```{
 	"id": "id returned in route /game",
-	"player": "O" or "X",
+	"player": "player returned in route /game",
 	"position": {
 		"x": 0,
 		"y": 1 
