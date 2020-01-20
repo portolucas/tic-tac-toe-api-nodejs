@@ -1,5 +1,7 @@
 ## Tic-tac-toe API in NodeJS
 
+##NodeJS version: 6.9.0
+
 Dependencies:
 - "connect": "^3.7.0",
 - "connect-ensure-login": "^0.1.1",
@@ -15,6 +17,6 @@ Install node: ```npm i```
 
 Build: ```npm start```
 
-If you are on Linux/Mac, change the _start value on _script key of _package.json file for ```"./bin/www"```
+If you are on Linux/Mac, change the **start** value on **script** key of **_package.json** file for ```"./bin/www"```
 
 Listen on port:3000
